@@ -36,8 +36,16 @@
 #stories .box-1 {
   grid-row: 1;
 }
+#stories .box-1 img {
+  width: 100%;
+  height: 30vh;
+}
 #stories .box-2 {
   grid-row: 2;
+}
+#stories .box-2 img {
+  width: 100%;
+  height: 30vh;
 }
 #stories .box-3 {
   grid-row: 3;

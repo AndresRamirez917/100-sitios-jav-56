@@ -59,6 +59,7 @@ form {
     }
     .form-control {
         width: 100%;
+        color: rgb(0, 0, 0);
         display: inline-block;
         background: rgb(50, 204, 140);
         padding: 1rem;
@@ -66,6 +67,7 @@ form {
         margin-bottom: 1rem;
         border: none;
         border-bottom: 2px solid rgb(0, 0, 0);
+     
     }
     button {
         background: #000;
@@ -178,7 +180,7 @@ form {
             width: 200%;
             height: 100vh;
             justify-self: center;
-            
+        
         }
     }
     .box-2 {
@@ -258,7 +260,8 @@ form {
 }
 
 #mensaje {
-    color: transparent;
+    color: #000;
+    //color: transparent;
    
    margin: 0 auto;
  

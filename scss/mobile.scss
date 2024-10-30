@@ -35,6 +35,7 @@
 .grid {
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: minmax(200px, auto);
+   
 }
 #stories {
 .box-1, 
@@ -48,9 +49,17 @@
 }
 .box-1 {
     grid-row: 1;
+    img {
+        width: 100%;
+        height: 30vh;
+    }
 }
 .box-2 {
     grid-row: 2;
+    img {
+        width: 100%;
+        height: 30vh;
+    }
 }
 .box-3 {
     grid-row: 3;

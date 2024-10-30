@@ -53,6 +53,7 @@ form .form-group {
 }
 form .form-control {
   width: 100%;
+  color: rgb(0, 0, 0);
   display: inline-block;
   background: rgb(50, 204, 140);
   padding: 1rem;
@@ -226,7 +227,7 @@ form button {
 }
 
 #mensaje {
-  color: transparent;
+  color: #000;
   margin: 0 auto;
 }
 
