@@ -171,37 +171,65 @@ form {
 }
 
     .box-1 {
-        background: rgb(165, 212, 99);
+        //background: rgb(165, 212, 99);
         grid-column: 1/2;
         grid-row: 1/3;
+        img {
+            width: 200%;
+            height: 100vh;
+            justify-self: center;
+            
+        }
     }
     .box-2 {
-        background: rgb(142, 182, 86);
+        //background: rgb(142, 182, 86);
         grid-column: 2/3;
         grid-row: 1;
+        img {
+            width: 200%;
+            height: 100vh;
+            justify-self: center;
+            
+        }
     }
 
     .box-3 {
-        background: rgb(120, 154, 73);
+        //background: rgb(120, 154, 73);
         grid-column: 3/4;
         grid-row: 1;
+        img {
+            width: 100%;
+            height: 40vh;
+        }
     }
 
     .box-4 {
-        background: rgb(100, 129, 61);
-        grid-column: 1/2;
-        grid-row: 3;
+        //background: rgb(100, 129, 61);
+        grid-column: 3;
+        grid-row: 2;
+        img {
+            width: 100%;
+            height: 40vh;
+        }
     }
 
     .box-5 {
-        background: rgb(82, 107, 51);
+        //background: rgb(82, 107, 51);
         grid-column: 2/3;
         grid-row: 2;
+        img {
+            width: 100%;
+            height: 40vh;
+        }
     }
     .box-6 {
-        background: rgb(67, 88, 42);
+        //background: rgb(67, 88, 42);
         grid-column: 2/3;
         grid-row: 3;
+        img {
+            width: 100%;
+            height: 40vh;
+        }
     }
 
     .box-7 {
