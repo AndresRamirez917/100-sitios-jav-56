@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/scss/styles.css">
+    <link rel="stylesheet" media="screen and (max-width:1000px)" href="/scss/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header id="mainheader">
+        <nav class="navbar">
+            <div class="container">
+                <a href="#mainheader"><img src="/images/logo.png" class="logo" alt=""></a>
+                <ul>
+                    <li><a href="#stories">stories</a></li>
+                    <li><a href="#contact-form">contact us</a></li>
+                    <li><a href="#contact-social">social</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+        <section id="showcase">
+            <h1>This is a landing page to practice CSS Grid based on the Phantom Template</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos optio doloremque odio unde, itaque nihil omnis corrupti ut deserunt repudiandae eum mollitia aperiam odit dolor dolorem quidem reiciendis tempore! Impedit, inventore perspiciatis!</p>
+        </section>
+    </header>
+    
+
+    <!-- stories -->
+    <section id="stories" class="grid">
+        <div class="grid-box box-1 "><a href="" class="fa fa-star fa-2x"></a></div>
+        <div class="grid-box box-2 "><a href="" class="fa fa-user fa-2x"></a></div>
+        <div class="grid-box box-3 "><a href="" class="fa fa-heart fa-2x"></a></div>
+        <div class="grid-box box-4 "><a href="" class="fa fa-arrow-up fa-2x"></a></div>
+        <div class="grid-box box-5 "><a href="" class="fa fa-gamepad fa-2x"></a></div>
+        <div class="grid-box box-6 "><a href="" class="fa fa-headphones fa-2x"></a></div>
+        <div class="grid-box box-7 "><a href="" class="fa fa-gift fa-2x"></a></div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="contact-row">
+                <div id="contact-form" class="muestra-activo">
+                    <h2>contact us</h2>
+                    <form action="">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Email</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>    
+                        <div class="form-group">
+                            <label for="name">Mensaje</label>
+                            <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                        </div>
+                        <button class="btn button-2">submit</button>
+                    </form>
+                </div>
+                <div id="contact-social" class="muestra-activo">
+                    <h2 >follow us</h2>
+                    <img src="/images/bxl-facebook-circle.svg" alt="">
+                    <img src="/images/bxl-instagram.svg" alt="">
+                    <img src="/images/bxl-twitter.svg" alt="">
+                    <img src="/images/bxl-youtube.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <a href="https://twitter.com/AndresRamirez?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @AndresRamirez</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </footer>
+        
+    </section>
+    
+
+    <!-- footer -->
+   
+</body>
+</html>
